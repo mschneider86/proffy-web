@@ -23,8 +23,10 @@ function TeacherItem() {
       </p>
 
       <footer>
-        <p>Preço/hora</p>
-        <strong>R$ 80,00</strong>
+        <p>
+          Preço/hora
+          <strong>R$ 80,00</strong>
+        </p>
         <button type='button'>
           <img src={whatsappIcon} alt='Whatsapp' />
           Entrar em contato

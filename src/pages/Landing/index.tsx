@@ -4,8 +4,10 @@ import logoImg from '../../assets/images/logo.svg';
 import landingImg from '../../assets/images/landing.svg';
 
 import studyIcon from '../../assets/images/icons/study.svg';
-import teachClassesIcon from '../../assets/images/icons/teach-classes.svg';
+import teachIcon from '../../assets/images/icons/teach.svg';
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
+
+import './styles.css';
 
 function Landing() {
   return (
@@ -28,9 +30,9 @@ function Landing() {
             Estudar
           </a>
 
-          <a href='#' className='teach-classes'>
-            <img src={teachClassesIcon} alt='Estudar' />
-            Estudar
+          <a href='#' className='teach'>
+            <img src={teachIcon} alt='Dar aulas' />
+            Dar aulas
           </a>
         </div>
 
